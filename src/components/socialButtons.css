@@ -1,0 +1,46 @@
+/* SocialButtons.module.css */
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 2rem;
+    padding-right: 5rem;
+  }
+  
+  .twitter-button,
+  .opensea-button {
+    display: flex;
+    align-items: center;
+    padding: 5px 12px;
+    color: white;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  
+  .twitter-button {
+    background-color: #1da1f2;
+    margin-right: 3px;
+  }
+  
+  /* .opensea-button {
+    background-color: transparent;
+  }
+   */
+  /* Add styles for the OpenSea icon (if using an image) */
+  .icon-opensea {
+    /* width: 24px;
+    height: 24px;
+    margin-right: 5px; */
+  }
+  
+  /* Optional: Add some hover styles for the buttons */
+  .twitter-button:hover,
+  .opensea-button:hover {
+    opacity: 0.8;
+  }
+  .opensea-button{
+    background-color: unset;
+  }
+  
