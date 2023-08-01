@@ -67,7 +67,7 @@ export const Home = () => {
         <div className="character1">
           <h1 className="green">89</h1>
           <h2 className="yellow">Special Add-ons</h2>
-          <img src="https://static.wixstatic.com/media/d7e659_f683c000547745c582b3f99bbd0ede6e~mv2.png/v1/fill/w_331,h_331,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d7e659_f683c000547745c582b3f99bbd0ede6e~mv2.png" alt="" />
+          <img src="https://static.wixstatic.com/media/d7e659_a2e36eadb0414a67b01a98bd507cc986~mv2.png/v1/fill/w_189,h_189,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d7e659_a2e36eadb0414a67b01a98bd507cc986~mv2.png" alt="" />
         </div>
       </div>
 
