@@ -44,3 +44,10 @@
     background-color: unset;
   }
   
+  @media (max-width: 600px)
+{
+  .button-container {
+    padding-right: unset;
+    padding-bottom: 2rem;
+}
+}

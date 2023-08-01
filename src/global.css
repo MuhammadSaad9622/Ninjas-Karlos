@@ -1,4 +1,10 @@
 body {
 text-align: center;
-overflow-x: hidden;
+overflow-x: hidden!important;
+font-family: 'Chelsea Market', cursive!important;
+}
+html{
+    overflow-x: hidden!important;
+
+font-family: 'Chelsea Market', cursive!important;
 }
