@@ -2,6 +2,12 @@ import React from "react";
 import "./home.css";
 import SocialButtons from '../components/SocialButtons';
 import Img1 from "../asserts/img1.PNG"
+import logo from "../asserts/logo.png"
+
+import Banner from "../asserts/Banner.png"
+import FAQ from "../asserts/faq.png"
+
+
 import Img2 from "../asserts/img2.PNG"
 import Img3 from "../asserts/img3.PNG"
 
@@ -10,15 +16,15 @@ export const Home = () => {
     <div>
       <SocialButtons />
       <img
-        src="https://static.wixstatic.com/media/d7e659_8dbdaafdaa03451fb3a828188e54845e~mv2.png/v1/fill/w_1349,h_846,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/d7e659_8dbdaafdaa03451fb3a828188e54845e~mv2.png"
+        src={Banner}
         width="980"
         height="846"
         class="style-6xOkQ fordesktop"
         id="style-6xOkQ"
       />
       <div className="buttons">
-        <div className="mint">
-          <button> Mint </button>
+        <div className="soon">
+          Now
         </div>
         <div className="soon">
           Soon
@@ -51,8 +57,8 @@ export const Home = () => {
               It is a rebirth of an excisting excitement to build a team
               and a purpose towards a wonderful project.Then,get to Jerry
             </p>
-            <div className="mint">
-              <button> Mint </button>
+            <div className="soon">
+              Now
             </div>
           </div>
 
@@ -93,7 +99,7 @@ export const Home = () => {
         </div>
         <div className="faqsection">
           <h1 className="soon">F.A.Q</h1>
-          <img src="https://static.wixstatic.com/media/d7e659_07c9c2004592423caeeaa12c23885d6d~mv2.jpg/v1/fill/w_595,h_537,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d7e659_07c9c2004592423caeeaa12c23885d6d~mv2.jpg" />
+          <img src={FAQ} />
         </div>
       </div>
 
@@ -127,7 +133,10 @@ export const Home = () => {
         <div className="character1">
           <h1 className="green">89</h1>
           <h2 className="yellow">Special Add-ons</h2>
-          <img src="https://static.wixstatic.com/media/d7e659_a2e36eadb0414a67b01a98bd507cc986~mv2.png/v1/fill/w_189,h_189,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d7e659_a2e36eadb0414a67b01a98bd507cc986~mv2.png" alt="" />
+          <br />
+          <br />
+
+          <img src="https://static.wixstatic.com/media/d7e659_a2e36eadb0414a67b01a98bd507cc986~mv2.png/v1/fill/w_189,h_189,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d7e659_a2e36eadb0414a67b01a98bd507cc986~mv2.png" className="rocket" alt="" />
         </div>
       </div>
       <br />
@@ -345,7 +354,7 @@ export const Home = () => {
       <div className="footer">
         <h3 className="green">
           This is our <span className="yellow">fight</span>  for a <span className="yellow">change</span> in the <span className="yellow">world</span>.</h3>
-        <img src="https://static.wixstatic.com/media/d7e659_335ee195e3af43b993abf4a208edc072~mv2.png/v1/crop/x_0,y_162,w_500,h_147/fill/w_158,h_47,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d7e659_335ee195e3af43b993abf4a208edc072~mv2.png" alt="" />
+        <img src={logo} width={65} className="flogo" alt="" />
       </div>
     </div>
   );

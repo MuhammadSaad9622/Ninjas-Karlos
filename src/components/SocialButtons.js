@@ -6,10 +6,12 @@ import "./socialButtons.css";
 const SocialButtons = () => {
   return (
     <div className="button-container">
-      <button className="twitter-button">
-        <FontAwesomeIcon icon={faTwitter} style={{ marginRight: "5px" }} />
-        Twitter
-      </button>
+      <a href="https://twitter.com/fGreenLabs">
+        <button className="twitter-button">
+          <FontAwesomeIcon icon={faTwitter} style={{ marginRight: "5px" }} />
+          Twitter
+        </button>
+      </a>
       <button className="opensea-button">
         {/* Add your OpenSea icon here */}
         <img

@@ -8,3 +8,6 @@ html{
 
 font-family: 'Chelsea Market', cursive!important;
 }
+a{
+    text-decoration: none;
+}

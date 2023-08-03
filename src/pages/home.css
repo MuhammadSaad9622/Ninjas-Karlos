@@ -274,6 +274,7 @@
   /* These were inline style tags. Uses id+class to override almost everything */
   #style-6xOkQ.style-6xOkQ {  
      width: 1349px;  
+     width: 100%;
       height: 846px;  
       object-fit: cover;  
       object-position: 50% 50%;  
@@ -1357,4 +1358,27 @@
             .img1 h2,.img1 p{
                 margin-top: -7px;
             }
+    }
+
+    .flogo{
+        width: 120px;
+    margin-top: -29px;
+    margin-left: 1rem;
+    }
+
+
+    .faqsection{
+        width: 65%;
+    }
+    .rocket{
+        margin-top: 3rem;
+    }
+
+    @media(max-width:600px){
+        .faqsection {
+            width: 100%;
+        }
+        .flogo {
+            margin-top: -14px;
+         }
     }
