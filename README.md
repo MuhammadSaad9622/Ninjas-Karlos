@@ -1,3 +1,6 @@
+![Capture2](https://github.com/Asad-Ghouri/minting-dapp/assets/84624564/cf87a2a1-36f2-499b-aeac-3946880eec66)
+![Capture1](https://github.com/Asad-Ghouri/minting-dapp/assets/84624564/ae892f41-956b-45b7-9bdd-27d1411f50f6)
+![Capture](https://github.com/Asad-Ghouri/minting-dapp/assets/84624564/4cd6c29b-d957-44b7-b895-6eca273282bd)
 ## Getting Started
 
 Create a project using this example:
