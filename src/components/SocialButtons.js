@@ -14,11 +14,15 @@ const SocialButtons = () => {
       </a>
       <button className="opensea-button">
         {/* Add your OpenSea icon here */}
-        <img
-          src="https://static.wixstatic.com/media/d7e659_57d1f0ec5d3d4bd59bdc0436b42dbe19~mv2.png/v1/fill/w_88,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d7e659_57d1f0ec5d3d4bd59bdc0436b42dbe19~mv2.png"
-          alt="OpenSea Icon"
-          style={{ width: "90px", height: "24px", marginRight: "5px" }}
-        />
+        <a href="https://opensea.io/collection/fairynfts">
+
+          <img
+            src="https://static.wixstatic.com/media/d7e659_57d1f0ec5d3d4bd59bdc0436b42dbe19~mv2.png/v1/fill/w_88,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d7e659_57d1f0ec5d3d4bd59bdc0436b42dbe19~mv2.png"
+            alt="OpenSea Icon"
+            style={{ width: "90px", height: "24px", marginRight: "5px" }}
+          />
+
+        </a>
       </button>
     </div>
   );
