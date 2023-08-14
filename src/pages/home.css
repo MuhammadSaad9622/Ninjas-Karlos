@@ -1377,6 +1377,7 @@
     @media(max-width:600px){
         .faqsection {
             width: 100%;
+            margin-top: -5rem;
         }
         .flogo {
             margin-top: -14px;

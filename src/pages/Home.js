@@ -35,9 +35,9 @@ export const Home = () => {
       </div>
 
       <div className="formob">
-        <center>
-          <img src="https://static.wixstatic.com/media/d7e659_335ee195e3af43b993abf4a208edc072~mv2.png/v1/crop/x_0,y_162,w_500,h_147/fill/w_158,h_47,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d7e659_335ee195e3af43b993abf4a208edc072~mv2.png" alt="" />
-        </center>
+        {/* <center> */}
+        <img src="https://static.wixstatic.com/media/d7e659_335ee195e3af43b993abf4a208edc072~mv2.png/v1/crop/x_0,y_162,w_500,h_147/fill/w_158,h_47,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d7e659_335ee195e3af43b993abf4a208edc072~mv2.png" alt="" />
+        {/* </center> */}
 
         <center>
           <h2 className="green">Our Purpose:</h2>
