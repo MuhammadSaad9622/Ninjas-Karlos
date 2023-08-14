@@ -24,6 +24,8 @@ const SocialButtons = () => {
 
         </a>
       </button>
+      {/* <br />
+      <br /> */}
     </div>
   );
 };
