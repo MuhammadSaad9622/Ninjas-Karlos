@@ -269,7 +269,9 @@
       /* position: relative; */
   } 
   
-  
+  body {
+    background-color: rgb(10, 10, 10);
+  }
   
   /* These were inline style tags. Uses id+class to override almost everything */
   #style-6xOkQ.style-6xOkQ {  
@@ -331,6 +333,7 @@
         overflow: visible; 
         /* position: relative; */
     } 
+    
     
     body:not(.device-mobile-optimized) .V5AUxf > *  { 
         flex: var(--column-flex) 1 0%; 
@@ -435,7 +438,38 @@
         width:  100%; 
         min-width:  980px;
     } 
-    
+    .container {
+        position: relative;
+      }
+      
+      .logo {
+        position: absolute;
+        top: 20px; /* Adjust the top spacing as needed */
+        left: -1px; /* Adjust the left spacing as needed */
+        width: 130px; /* Adjust the width to increase size */
+        margin-top: -25px;
+      }
+      .small-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-bottom: 100px;
+        margin-top: 143px;
+        border: 2px solid yellow; /* Add the border property with yellow color */
+         /* Makes it round */
+      }
+      .small-NFT {
+        width: 16%;
+        height: 10%;
+        object-fit: cover;
+        border-radius: 50%; /* Makes only the NFT image round */
+        position: absolute;
+        left: 246px;
+        margin-top: 490px;
+        border: 2px solid yellow;  /* Adjust the left position as needed */
+         /* Adjust the top position as needed */
+      }
+      
     [data-mesh-id="Containerc1dmpinlineContent-gridContainer"] { 
         position: static; 
         display: grid; 
@@ -550,6 +584,7 @@
     #SITE_CONTAINER { 
         /* position: relative; */
     } 
+
     
  
     
@@ -1226,12 +1261,14 @@
         margin-right: 3.9rem;
 
     }
-    .mintsection{
+    .mintsection {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-left: 5rem;
-    }
+        margin-top: 200px;
+        padding-left: 1rem; /* Decreased padding from 5rem to 1rem */
+        background-color: rgb(8, 8, 8); /* Changed background color to yellow */
+      }
     .faqsection{
         display: flex;
         flex-direction: column;
@@ -1301,7 +1338,7 @@
     .footer{
         display: flex;
         justify-content: center;
-        margin-top: 1rem;
+        margin-top: 60px;
         font-weight: 300;
     }
 
