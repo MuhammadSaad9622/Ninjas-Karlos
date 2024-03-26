@@ -108,20 +108,16 @@ export const Home = () => {
 </div>
 <div style={{ marginTop: '200px' }}></div>
 
+<div>
+<iframe src="https://embed.ipfscdn.io/ipfs/bafybeigdie2yyiazou7grjowoevmuip6akk33nqb55vrpezqdwfssrxyfy/erc1155.html?contract=0x5D19D4be7cd721D848554801B33dAaADa74d51BF&chain=%7B%22name%22%3A%22Base+Sepolia+Testnet%22%2C%22chain%22%3A%22ETH%22%2C%22rpc%22%3A%5B%22https%3A%2F%2F84532.rpc.thirdweb.com%2F%24%7BTHIRDWEB_API_KEY%7D%22%5D%2C%22nativeCurrency%22%3A%7B%22name%22%3A%22Sepolia+Ether%22%2C%22symbol%22%3A%22ETH%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22basesep%22%2C%22chainId%22%3A84532%2C%22testnet%22%3Atrue%2C%22slug%22%3A%22base-sepolia-testnet%22%2C%22icon%22%3A%7B%22url%22%3A%22ipfs%3A%2F%2FQmaxRoHpxZd8PqccAynherrMznMufG6sdmHZLihkECXmZv%22%2C%22width%22%3A1200%2C%22height%22%3A1200%2C%22format%22%3A%22png%22%7D%7D&clientId=dd8d935a7ea3a876d645c59e2de86798&tokenId=0&theme=light&primaryColor=purple" width="900px" height="900px" style={{maxWidth: '100%'}} frameBorder={0} />
 
-     
-
-
-      {/* <div className="mintsection" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
-      <h1 style={{ color: 'white' }}>MINTING NFTS</h1>
-  <iframe src="https://embed.ipfscdn.io/ipfs/bafybeihazpt6pkm4azgtupdz7hc2j3o4zpjsvtcgfq4t2keozxkss3ud6q/?contract=0x01a5b133b49e8b8E92816f8442863034ef414D0D&chain=%7B%22name%22%3A%22Ethereum+Mainnet%22%2C%22chain%22%3A%22ETH%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Fethereum.rpc.thirdweb.com%2F%24%7BTHIRDWEB_API_KEY%7D%22%5D%2C%22nativeCurrency%22%3A%7B%22name%22%3A%22Ether%22%2C%22symbol%22%3A%22ETH%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22eth%22%2C%22chainId%22%3A1%2C%22testnet%22%3Afalse%2C%22slug%22%3A%22ethereum%22%2C%22icon%22%3A%7B%22url%22%3A%22ipfs%3A%2F%2FQmcxZHpyJa8T4i63xqjPYrZ6tKrt55tZJpbXcjSDKuKaf9%2Fethereum%2F512.png%22%2C%22height%22%3A512%2C%22width%22%3A512%2C%22format%22%3A%22png%22%7D%7D&clientId=49c1d436a2724a36a5088089358a780d&theme=system&primaryColor=green" width="80%" height="480px" style={{ maxWidth: '100%' }} frameBorder={0} />
-</div> */}
-
+</div>
 
 
      
 
-      // 
+
+  
     </div>
   );
 };
